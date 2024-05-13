@@ -3,6 +3,7 @@ package com.alerts;
 import com.data_management.Patient;
 
 import java.util.ArrayList;
+import java.util.List; 
 
 public class TrendWindow {
     private Patient patient; 
