@@ -13,7 +13,7 @@ public class fileOutputStrategy implements OutputStrategy {
 
     public final ConcurrentHashMap<String, String> file_map = new ConcurrentHashMap<>();
 
-    public FileOutputStrategy(String baseDirectory) {
+    public fileOutputStrategy(String baseDirectory) {
 
         this.BaseDirectory = baseDirectory;
     }
