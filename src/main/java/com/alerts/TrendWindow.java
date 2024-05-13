@@ -10,7 +10,7 @@ public class TrendWindow {
     public TrendWindow(Patient patient){
         this.patient = patient; 
     }
-    //Sliding window for patient values
+    //Sliding window for getting patient values
     public List<Double> getWindowValues(int patientID, long startTime, long endTime, String recordType) {
         List<Double> windowValues = new ArrayList<>();
         List<PatientRecord> records = patient.getRecords(startTime, endTime);
