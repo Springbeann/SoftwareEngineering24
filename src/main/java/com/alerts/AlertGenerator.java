@@ -11,6 +11,13 @@ import com.data_management.Patient;
  */
 public class AlertGenerator {
     private DataStorage dataStorage;
+    private final double systolicMin = 90.0; 
+    private final double systolicMax = 180.0;
+    private final double diastolicMin = 60.0;
+    private final double diastolicMax = 120.0;
+    private final double heartRateMin = 50.0;
+    private final double heartRateMax = 100;
+    private final double saturationMin = 92.0;
 
     /**
      * Constructs an {@code AlertGenerator} with a specified {@code DataStorage}.
@@ -22,6 +29,7 @@ public class AlertGenerator {
      */
     public AlertGenerator(DataStorage dataStorage) {
         this.dataStorage = dataStorage;
+        
     }
 
     /**
