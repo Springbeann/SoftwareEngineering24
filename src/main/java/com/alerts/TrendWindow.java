@@ -1,5 +1,7 @@
 package com.alerts; 
 
+import com.data_management.Patient;
+
 import java.util.ArrayList;
 
 public class TrendWindow {
